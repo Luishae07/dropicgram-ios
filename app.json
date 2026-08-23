@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Dropicgram",
+    "slug": "dropicgram",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "dropicgram",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.luishae07.dropicgram",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Dropicgram needs photo access so you can drop pics.",
+        "NSCameraUsageDescription": "Dropicgram uses the camera to take photos for your posts and stories."
+      }
+    },
+    "android": {
+      "package": "com.luishae07.dropicgram"
+    },
+    "plugins": []
+  }
+}
